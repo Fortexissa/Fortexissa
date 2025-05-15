@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Princess Fortexissa - Mes Montages</title>
+  <style>
+    /* Style Wano, ambiance japonaise et chaude */
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #f3b46a, #c1452d);
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      overflow-x: hidden;
+      cursor: url('https://i.imgur.com/JwPZqJA.png'), auto; /* curseur chapeau de paille */
+    }
+    header {
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 2.5em;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px #6b2e0c;
+      font-family: 'Georgia', serif;
+    }
+    .videos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .video-box {
+      background: rgba(0,0,0,0.3);
+      border: 2px solid #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 350px;
+      box-shadow: 0 0 10px #c1452d;
+      transition: transform 0.3s ease;
+    }
+    .video-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #f7c871;
+    }
+    iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 1em;
+      background: #6b2e0c;
+      color: #f3b46a;
+      margin-top: 40px;
+      font-family: 'Georgia', serif;
+    }
+  </style>
+</head>
+<body>
+  <header>Princess Fortexissa - Mes Montages</header>
+
+  <section class="videos">
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/dgIyIrDS6Hw" allowfullscreen></iframe>
+    </div>
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/y4WV7NVKDmc" allowfullscreen></iframe>
+    </div>
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/sUq8fpQZtd0" allowfullscreen></iframe>
+    </div>
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/h-pICw5J34g" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 by Princess Fortexissa - All Rights Reserved
+  </footer>
+</body>
+</html>
+
